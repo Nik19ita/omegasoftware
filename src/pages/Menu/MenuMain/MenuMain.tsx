@@ -8,7 +8,6 @@ const MenuPages = () => {
   return (
     <Content>
       <List data={data} listName={`${location.key}`} />
-      <img src="/omegasoftware/test.jpg" alt="sdg" />
     </Content>
   );
 };
