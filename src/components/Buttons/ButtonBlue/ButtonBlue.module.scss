@@ -1,0 +1,16 @@
+@import "../../../assets/style/globals.scss";
+
+.button {
+  height: 40px;
+  margin-right: 10px;
+  padding: 0 24px;
+  color: $color-white;
+  border: none;
+  border-radius: 100px;
+  background-color: $color-button-blue-background;
+}
+
+.disabled {
+  background-color: #dcd8e0;
+  color: #a8a3ab;
+}

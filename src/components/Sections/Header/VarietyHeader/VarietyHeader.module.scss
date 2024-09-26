@@ -1,0 +1,27 @@
+@import "../../../../assets/style/globals.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 33px;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: left;
+  color: $color-black;
+}
+
+.menu {
+  background-color: $color-blue;
+}
+
+.scan {
+  border-bottom: 1px solid $color-black;
+  background-color: transparent;
+}
+
+.vzn-non-border {
+    width: 100%;
+}

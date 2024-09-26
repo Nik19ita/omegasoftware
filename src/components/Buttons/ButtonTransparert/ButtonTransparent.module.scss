@@ -1,0 +1,11 @@
+@import "../../../assets/style/globals.scss";
+
+.button {
+  height: 40px;
+  margin-right: 10px;
+  padding: 0 24px;
+  color: $color-button-transparent-text;
+  border: 1px solid $color-button-transparent-border;
+  border-radius: 100px;
+  background-color: transparent;
+}
