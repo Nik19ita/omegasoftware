@@ -18,6 +18,7 @@ const Footer = () => {
       <Link to="/menu/main" className={styles.link}>
         <MenuSVG />
         <span className={styles.span}>Меню</span>
+        <img src="../../../assets/img/scan.svg?react" alt="asfasf" />
       </Link>
 
       <Link to="/scan" className={styles.link}>
