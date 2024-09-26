@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 import { useLocation } from "react-router-dom";
 import List from "../../../components/List/List";
 import Content from "../../../components/Sections/Content/Content";
@@ -8,7 +9,7 @@ const MenuPages = () => {
   return (
     <Content>
       <List data={data} listName={`${location.key}`} />
-      <img src="src/assets/img/test.jpg" alt="sdg" />
+      <img src={require(`../../../assets/img/close.svg`)} alt="sdg" />
     </Content>
   );
 };
