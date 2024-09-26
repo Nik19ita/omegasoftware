@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://Nik19ita.github.io/omegasoftware",
+  "homepage": "https://nik19ita.github.io/omegasoftware/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
