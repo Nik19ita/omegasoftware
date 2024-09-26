@@ -8,7 +8,7 @@ const MenuPages = () => {
   return (
     <Content>
       <List data={data} listName={`${location.key}`} />
-      <img src="src/assets/img/close.svg" alt="" />
+      <img src="assets/img/close.svg" alt="" />
     </Content>
   );
 };
