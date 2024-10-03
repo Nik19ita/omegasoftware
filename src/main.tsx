@@ -9,5 +9,6 @@ const root = ReactDOM.createRoot(rootElement);
 root.render(
   <HashRouter>
     <App />
+    <img src="./assets/img/setting-1.svg" alt="" />
   </HashRouter>,
 );
