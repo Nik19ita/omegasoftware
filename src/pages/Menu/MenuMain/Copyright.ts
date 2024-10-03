@@ -1,6 +1,6 @@
 const firstItem = {
   to: "/menu/tasks",
-  icon: "src/assets/img/tasks.svg",
+  icon: "src/assets/img/tasks.jpg",
   label: "Задачи",
 };
 
