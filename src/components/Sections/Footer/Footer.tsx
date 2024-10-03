@@ -1,8 +1,8 @@
 /// <reference types="vite-plugin-svgr/client" />
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import ArrowBack from "../../../assets/img/arrow-back.svg?react";
-import MenuSVG from "../../../assets/img/menu.svg?react";
-import ScanSVG from "../../../assets/img/scan.svg?react";
+import ArrowBack from "../../../../public/img/arrow-back.svg?react";
+import MenuSVG from "../../../../public/img/menu.svg?react";
+import ScanSVG from "../../../../public/img/scan.svg?react";
 import styles from "./Footer.module.scss";
 
 const Footer = () => {

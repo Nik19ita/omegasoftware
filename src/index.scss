@@ -1,11 +1,11 @@
 @import "../node_modules/normalize-scss/sass/normalize/import-now";
-@import "./assets/style/globals.scss";
+@import "../public/style/globals.scss";
 
 @font-face {
   font-family: "Roboto";
   src:
     local("RobotoRegular"),
-    url("./assets/fonts/RobotoRegular.woff2") format("woff2");
+    url("../public/fonts/RobotoRegular.woff2") format("woff2");
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -15,7 +15,7 @@
   font-family: "Roboto";
   src:
     local("RobotoMedium"),
-    url("./assets/fonts/RobotoMedium.woff2") format("woff2");
+    url("../public/fonts/RobotoMedium.woff2") format("woff2");
   font-display: swap;
   font-weight: 500;
   font-style: normal;

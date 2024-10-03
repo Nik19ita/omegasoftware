@@ -15,9 +15,7 @@ const MenuComponent: FC<IMenuComponentProps> = ({ icon, label, to }) => {
       className={styles.component}
       onClick={(e) => to === "#" && e.preventDefault()}
     >
-      {icon && (
-        <img src="src/assets/img/tasks.jpg" alt="" className={styles.icon} />
-      )}
+      {icon && <img src={icon} alt="" className={styles.icon} />}
       <span className={styles.label}>{label}</span>
     </Link>
   );

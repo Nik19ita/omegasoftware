@@ -1,12 +1,12 @@
 const firstItem = {
   to: "#",
-  icon: "src/assets/img/setting-1.svg",
+  icon: "img/setting-1.svg",
   label: "Настрока 1",
 };
 
 const secondItem = {
   to: "#",
-  icon: "src/assets/img/setting-2.svg",
+  icon: "img/setting-2.svg",
   label: "Настрока 2",
 };
 
