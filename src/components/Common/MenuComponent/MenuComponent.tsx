@@ -18,7 +18,7 @@ const MenuComponent: FC<IMenuComponentProps> = ({ icon, label, to }) => {
       {icon && (
         <img
           src="../../../assets/img/tasks.jpg"
-          alt="картинка"
+          alt=""
           className={styles.icon}
         />
       )}
