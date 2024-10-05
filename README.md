@@ -1,3 +1,3 @@
 Небольшое приложение для работы на ТСД. Размер 320\*480 px.
 
-###React + React Router + Redux.###
+### React + React Router + Redux.
